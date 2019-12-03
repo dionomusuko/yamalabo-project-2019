@@ -75,19 +75,29 @@ Issue > New Issue から、新しくIssueを作成してください。
 
 <br>
 
-## 使い方
+## 開発環境のつくりかた
+
+### 大前提
+
+```
+Bitcoin-Coreとrbenvが動く
+```
 
 ### はじめに
 
 ```
+# とってくる
 git clone https://github.com/moririn772/yamalabo-project-2019.git
 cd yamalabo-project-2019
+
+# 使うRubyのバージョンを指定する
 rbenv install 2.5.7
 rbenv rehash
 rbenv local 2.5.7
 ruby -v
 # => 2.5.7が出たらOK
 
+# いよいよ環境構築
 gem install bundle
 bundle install --path=vendor/bundle
 bin/rails db:create
@@ -96,15 +106,8 @@ bin/rails s
 # localhost:3000で見れたらOK
 ```
 
-## openassets-rubyをrails　に組み込む
+### openassets-rubyをrails　に組み込む
 
-* rails 5.2.3
-* ruby  2.6.3
-
-gemのopneassets-rubyとbitcoin-rubyとのversionを合わせるため
-
-gem 'ffi', '1.9.18'
-
-を追加
-
+@dionomusukoがやってくれました!! ありがとう!!  
+This repo is forked from https://github.com/dionomusuko/rails-openassets-ruby
 
