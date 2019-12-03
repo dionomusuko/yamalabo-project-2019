@@ -79,11 +79,14 @@ Issue > New Issue から、新しくIssueを作成してください。
 
 ### 大前提
 
-```
-Bitcoin-Coreとrbenvが動く
-```
+Bitcoin-Coreをいれる  
+https://morylab.hateblo.jp/entry/20190514
 
-### はじめに
+rbenvをいれる  
+http://railsgirls.jp/install#setup_for_macos の"3. rbenv を使って Ruby と Ruby on Rails をインストール(Mac OS X 10.9 以上の場合):"を参照
+
+
+### インストールと動作確認
 
 ```
 # とってくる
@@ -106,7 +109,7 @@ bin/rails s
 # localhost:3000で見れたらOK
 ```
 
-### openassets-rubyをrails　に組み込む
+### openassets-rubyをrailsに組み込む
 
 @dionomusukoがやってくれました!! ありがとう!!  
 This repo is forked from https://github.com/dionomusuko/rails-openassets-ruby
