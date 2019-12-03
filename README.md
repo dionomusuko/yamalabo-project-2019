@@ -75,6 +75,27 @@ Issue > New Issue から、新しくIssueを作成してください。
 
 <br>
 
+## 使い方
+
+### はじめに
+
+```
+git clone https://github.com/moririn772/yamalabo-project-2019.git
+cd yamalabo-project-2019
+rbenv install 2.5.7
+rbenv rehash
+rbenv local 2.5.7
+ruby -v
+# => 2.5.7が出たらOK
+
+gem install bundle
+bundle install --path=vendor/bundle
+bin/rails db:create
+bin/rails db:migrate
+bin/rails s
+# localhost:3000で見れたらOK
+```
+
 ## openassets-rubyをrails　に組み込む
 
 * rails 5.2.3
