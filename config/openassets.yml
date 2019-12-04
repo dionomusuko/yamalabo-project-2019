@@ -1,6 +1,6 @@
 # README: https://github.com/haw-itn/openassets-ruby#configuration
 default: &default
-  network:  mainnet
+  network:  testnet
   provider: bitcoind
   cache:    tmp/cache/openassets.db
   dust_limit: 600
