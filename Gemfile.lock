@@ -82,7 +82,7 @@ GEM
     erubi (1.9.0)
     eventmachine (1.2.7)
     execjs (2.7.0)
-    ffi (1.9.18)
+    ffi (1.9.24)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
       rake
@@ -229,7 +229,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   coffee-rails (~> 4.2)
   dotenv-rails
-  ffi (= 1.9.18)
+  ffi (= 1.9.24)
   listen (>= 3.0.5, < 3.2)
   openassets-ruby
   pry-rails

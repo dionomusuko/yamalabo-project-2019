@@ -16,7 +16,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # bitcoin
 gem 'openassets-ruby'
 gem 'bitcoin-ruby'
-gem 'ffi', '1.9.18'
+gem 'ffi', '1.9.24'
 gem 'dotenv-rails'
 
 group :development, :test do
