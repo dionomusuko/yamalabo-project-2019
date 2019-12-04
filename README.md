@@ -107,4 +107,5 @@ gem 'ffi', '1.9.18'
 
 を追加
 
+Refer: [https://y-nakajo.hatenablog.com/entry/2017/11/02/120529](https://y-nakajo.hatenablog.com/entry/2017/11/02/120529)
 
